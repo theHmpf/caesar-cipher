@@ -10,7 +10,7 @@ def stock_picker stock_prices
       if (difference) > biggest_difference
         biggest_difference = difference
         day_buy = price_buy_index
-        day_sell = price_sell_index + price_buy_index +1
+        day_sell = price_sell_index + price_buy_index + 1
       end
 
     end
